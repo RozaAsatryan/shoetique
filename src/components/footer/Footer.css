@@ -1,0 +1,29 @@
+.footer {
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.822);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.footer h2 {
+    font-size: 50px;
+}
+
+.footer p {
+    font-size: 20px;
+}
+.social-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.social-icons button {
+    font-size: 45px;
+    border: none;
+    background: transparent;
+    color: white;
+}

@@ -1,0 +1,16 @@
+.kid-shoes-section {
+  margin: 50px auto;
+  max-width: 1300px;
+}
+
+.kid-shoes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 350px);
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.kids-section {
+  background-image: url(../../../img/baby-shoes-blue-banner.jpg);
+}

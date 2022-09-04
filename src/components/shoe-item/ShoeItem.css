@@ -1,0 +1,49 @@
+.item-img {
+  width: 70%;
+  height: auto;
+  padding-bottom: 30px;
+}
+
+.item-img:hover {
+  transform: scale(1.06);
+}
+
+.add-to-btn {
+  display: block;
+  padding: 0.5em 1em 0.5em 1em;
+  border-radius: 100px;
+  border: none;
+  font-size: 17px;
+  color: white;
+  background-color: #0652dd;
+  position: relative;
+  cursor: pointer;
+  width: 164px;
+  height: 52px;
+  overflow: hidden;
+  transition: transform 0.1s;
+}
+
+.add-to-btn:hover {
+  transform: scale(1.03);
+}
+
+.added-btn {
+  background-color: #86df00;
+}
+
+.item-btns {
+  display: flex;
+  justify-content: flex-start;
+  gap: 100px;
+}
+
+.add-to-wish {
+  display: flex;
+  color: red;
+  border: none;
+  background-color: transparent;
+  font-size: 30px;
+  cursor: pointer;
+  align-self: center;
+}

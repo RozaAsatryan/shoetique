@@ -1,0 +1,354 @@
+[
+  {
+    "id": 1,
+    "img": "https://images.dsw.com/is/image/DSWShoes/522898_700_ss_01?impolicy=colpg&imwidth=400&imdensity=2",
+    "title": "ASICS",
+    "descr": "Gel-Nimbus 24 SS22",
+    "price": "115",
+    "amount": 1,
+    "collection": "female"
+  },
+  {
+    "id": 2,
+    "img": "https://images.dsw.com/is/image/DSWShoes/528872_020_ss_01?impolicy=colpg&imwidth=400&imdensity=1",
+    "title": "HOKA ONE ONE",
+    "descr": "Kawana Running Shoes - AW22",
+    "price": "124",
+    "amount": 1,
+    "collection": "female"
+  },
+  {
+    "id": 3,
+    "img": "https://images.dsw.com/is/image/DSWShoes/498043_109_ss_01?impolicy=qlt-medium-high&imwidth=640&imdensity=1",
+    "title": "NIKE",
+    "descr": "Air Zoom Pegasus - SU22",
+    "price": "76",
+    "amount": 1,
+    "collection": "female"
+  },
+  {
+    "id": 4,
+    "img": "https://ld-magento-72.template-help.com/magento_MAG-3787/pub/media/catalog/product/cache/74debc30150598acb5adb94d05cc9a50/s/u/supra_stacks_vulc_ii_shoes_1.png",
+    "title": "ASICS",
+    "descr": "Supra Stacks Vulc II Shoes",
+    "price": "79",
+    "amount": 1,
+    "collection": "male"
+  },
+  {
+    "id": 5,
+    "img": "https://ld-magento-72.template-help.com/magento_MAG-3787/pub/media/catalog/product/cache/74debc30150598acb5adb94d05cc9a50/n/i/nike_sb_nyjah_free_shoes.png",
+    "title": "NIKE",
+    "descr": "SB Nyjah Free Shoes",
+    "price": "230",
+    "amount": 1,
+    "collection": "male"
+  },
+  {
+    "id": 6,
+    "img": "https://ld-magento-72.template-help.com/magento_MAG-3787/pub/media/catalog/product/cache/74debc30150598acb5adb94d05cc9a50/g/l/globe_ct_iv_classic_shoes.png",
+    "title": "GLOBE",
+    "descr": "Ct IV Classic Shoes",
+    "price": "152",
+    "amount": 1,
+    "collection": "male"
+  },
+  {
+    "id": 7,
+    "img": "https://ld-magento-72.template-help.com/magento_MAG-3787/pub/media/catalog/product/cache/74debc30150598acb5adb94d05cc9a50/a/d/adidas_originals_tubular_shadow_shoes_1.png",
+    "title": "ADIDAS",
+    "descr": "Ct IV Classic Shoes",
+    "price": "150",
+    "amount": 1,
+    "collection": "male"
+  },
+  {
+    "id": 8,
+    "img": "https://ld-magento-72.template-help.com/magento_MAG-3787/pub/media/catalog/product/cache/74debc30150598acb5adb94d05cc9a50/e/t/etnies_jameson_2_shoes.png",
+    "title": "ETNIES",
+    "descr": "Jameson 2 Shoes",
+    "price": "99",
+    "amount": 1,
+    "collection": "male"
+  },
+  {
+    "id": 9,
+    "img": "https://ld-magento-72.template-help.com/magento_MAG-3787/pub/media/catalog/product/cache/74debc30150598acb5adb94d05cc9a50/a/d/adidas_originals_sobakov_shoes_1.png",
+    "title": "ADIDAS",
+    "descr": "Originals Sobakov Shoes",
+    "price": "158",
+    "amount": 1,
+    "collection": "male"
+  },
+  {
+    "id": 10,
+    "img": "https://ld-magento-72.template-help.com/magento_MAG-3787/pub/media/catalog/product/cache/74debc30150598acb5adb94d05cc9a50/c/o/converse_chuck_taylor_all_stars_ox_shoes.png",
+    "title": "CONVERSE",
+    "descr": "Chuck Taylor All Stars OX",
+    "price": "158",
+    "amount": 1,
+    "collection": "male"
+  },
+  {
+    "id": 11,
+    "img": "https://ld-magento-72.template-help.com/magento_MAG-3787/pub/media/catalog/product/cache/74debc30150598acb5adb94d05cc9a50/n/i/nike_sb_nyjah_free_shoes.png",
+    "title": "NIKE",
+    "descr": "SB Nyjah Free Shoes",
+    "price": "99",
+    "amount": 1,
+    "collection": "male"
+  },
+  {
+    "id": 12,
+    "img": "https://ld-magento-72.template-help.com/magento_MAG-3787/pub/media/catalog/product/cache/74debc30150598acb5adb94d05cc9a50/n/i/nike_sb_zoom_stefan_janoski_canvas_shoes.png",
+    "title": "NIKE",
+    "descr": "SB Zoom Stefan Janoski Canvas Shoes",
+    "price": "132",
+    "amount": 1,
+    "collection": "male"
+  },
+  {
+    "id": 13,
+    "img": "https://ld-magento-72.template-help.com/magento_MAG-3787/pub/media/catalog/product/cache/74debc30150598acb5adb94d05cc9a50/v/a/vans_pro_slip_on_shoes.png",
+    "title": "VANS",
+    "descr": "Pro Slip On Shoes",
+    "price": "89",
+    "amount": 1,
+    "collection": "male"
+  },
+  {
+    "id": 14,
+    "img": "https://ld-magento-72.template-help.com/magento_MAG-3787/pub/media/catalog/product/cache/74debc30150598acb5adb94d05cc9a50/s/u/superdry_erin_elastic_womens_espadrilles.png",
+    "title": "ERIN",
+    "descr": "Superdry Erin Elastic Womens Espadrilles",
+    "price": "56",
+    "amount": 1,
+    "collection": "male"
+  },
+  {
+    "id": 15,
+    "img": "https://ld-magento-72.template-help.com/magento_MAG-3787/pub/media/catalog/product/cache/74debc30150598acb5adb94d05cc9a50/n/i/nike_sb_zoom_stefan_janoski_canvas_shoes.png",
+    "title": "NIKE",
+    "descr": "SB Zoom Stefan Janoski Canvas Shoes",
+    "price": "132",
+    "amount": 1,
+    "collection": "male"
+  },
+  {
+    "id": 17,
+    "img": "https://images.dsw.com/is/image/DSWShoes/530486_334_ss_01?impolicy=colpg&imwidth=400&imdensity=1",
+    "title": "ADIDAS",
+    "descr": "Questar Running Shoe",
+    "price": "75",
+    "amount": 1,
+    "collection": "female"
+  },
+  {
+    "id": 18,
+    "img": "https://images.dsw.com/is/image/DSWShoes/531756_026_ss_01?impolicy=colpg&imwidth=400&imdensity=1",
+    "title": "BROOKS",
+    "descr": "Ghost 14 Running Shoe",
+    "price": "75",
+    "amount": 1,
+    "collection": "female"
+  },
+  {
+    "id": 19,
+    "img": "https://images.dsw.com/is/image/DSWShoes/520696_400_ss_01?impolicy=colpg&imwidth=400&imdensity=1",
+    "title": "SAUCONY",
+    "descr": "Guide 15 Running Shoe ",
+    "price": "75",
+    "amount": 1,
+    "collection": "male"
+  },
+
+  {
+    "id": 20,
+    "img": "https://images.dsw.com/is/image/DSWShoes/524312_100_ss_01?impolicy=colpg&imwidth=400&imdensity=1",
+    "title": "BROOKS",
+    "descr": "Ghost 14 Running Shoe",
+    "price": "86",
+    "amount": 1,
+    "collection": "female"
+  },
+  {
+    "id": 21,
+    "img": "https://images.dsw.com/is/image/DSWShoes/531804_509_ss_01?impolicy=colpg&imwidth=400&imdensity=2",
+    "title": "ADIDAS",
+    "descr": "EQ21 Run Running Shoe",
+    "price": "84",
+    "amount": 1,
+    "collection": "female"
+  },
+  {
+    "id": 22,
+    "img": "https://images.dsw.com/is/image/DSWShoes/523402_500_ss_01?impolicy=colpg&imwidth=400&imdensity=1",
+    "title": "PUMA",
+    "descr": "Feline Profoam Running Shoe",
+    "price": "84",
+    "amount": 1,
+    "collection": "female"
+  },
+  {
+    "id": 23,
+    "img": "https://images.dsw.com/is/image/DSWShoes/523403_500_ss_01?impolicy=colpg&imwidth=400&imdensity=1",
+    "title": "PUMA",
+    "descr": "Profoam Running Shoe",
+    "price": "95",
+    "amount": 1,
+    "collection": "female"
+  },
+  {
+    "id": 24,
+    "img": "https://images.dsw.com/is/image/DSWShoes/513825_013_ss_01?impolicy=colpg&imwidth=400&imdensity=1",
+    "title": "BROOKS",
+    "descr": "Ghost 14 Running Shoe",
+    "price": "105",
+    "amount": 1,
+    "collection": "female"
+  },
+  {
+    "id": 25,
+    "img": "https://images.dsw.com/is/image/DSWShoes/500167_042_ss_01?impolicy=colpg&imwidth=400&imdensity=1",
+    "title": "NEW BALANCE",
+    "descr": "Fresh Foam Roav ",
+    "price": "46",
+    "amount": 1,
+    "collection": "female"
+  },
+  {
+    "id": 26,
+    "img": "https://images.dsw.com/is/image/DSWShoes/465693_001_ss_01?impolicy=colpg&imwidth=400&imdensity=1",
+    "title": "ADIDAS",
+    "descr": "Retrorun Sneaker",
+    "price": "85",
+    "amount": 1,
+    "collection": "female"
+  },
+  {
+    "id": 27,
+    "img": "https://images.dsw.com/is/image/DSWShoes/511730_001_ss_01?impolicy=colpg&imwidth=400&imdensity=1",
+    "title": "ASICS",
+    "descr": "GEL-Venture 8 Running Shoe",
+    "price": "69",
+    "amount": 1,
+    "collection": "female"
+  },
+  {
+    "id": 28,
+    "img": "https://images.dsw.com/is/image/DSWShoes/470565_042_ss_01?impolicy=colpg&imwidth=400&imdensity=1",
+    "title": "NEW BALANCE",
+    "descr": "Fresh Foam Troav Trail",
+    "price": "78",
+    "amount": 1,
+    "collection": "female"
+  },
+  {
+    "id": 29,
+    "img": "https://images.dsw.com/is/image/DSWShoes/524312_100_ss_01?impolicy=colpg&imwidth=400&imdensity=1",
+    "title": "REEBOK",
+    "descr": "Zig Dynamica Sneaker",
+    "price": "78",
+    "amount": 1,
+    "collection": "female"
+  },
+  {
+    "id": 30,
+    "img": "https://images.dsw.com/is/image/DSWShoes/532358_100_ss_01?impolicy=colpg&imwidth=400&imdensity=1",
+    "title": "REEBOK",
+    "descr": "Classic Leather Slip-On",
+    "price": "45",
+    "amount": 1,
+    "collection": "kids"
+  },
+  {
+    "id": 31,
+    "img": "https://images.dsw.com/is/image/DSWShoes/527048_600_ss_01?impolicy=colpg&imwidth=400&imdensity=1",
+    "title": "CONVERSE",
+    "descr": "Chuck Taylor All Star ",
+    "price": "30",
+    "amount": 1,
+    "collection": "kids"
+  },
+  {
+    "id": 32,
+    "img": "https://images.dsw.com/is/image/DSWShoes/539736_100_ss_01?impolicy=colpg&imwidth=400&imdensity=1",
+    "title": "ADIDAS",
+    "descr": "Lite Racer Adapt 4.0",
+    "price": "60",
+    "amount": 1,
+    "collection": "kids"
+  },
+  {
+    "id": 33,
+    "img": "https://images.dsw.com/is/image/DSWShoes/519903_102_ss_01?impolicy=colpg&imwidth=400&imdensity=1",
+    "title": "CONVERSE",
+    "descr": "All Star Platform High-Top",
+    "price": "45",
+    "amount": 1,
+    "collection": "kids"
+  },
+  {
+    "id": 34,
+    "img": "https://images.dsw.com/is/image/DSWShoes/531388_001_ss_01?impolicy=colpg&imwidth=400&imdensity=1",
+    "title": "VANS",
+    "descr": "FIlmore High-Top Sneaker",
+    "price": "68",
+    "amount": 1,
+    "collection": "kids"
+  },
+  {
+    "id": 35,
+    "img": "https://images.dsw.com/is/image/DSWShoes/380939_601_ss_01?impolicy=colpg&imwidth=400&imdensity=1",
+    "title": "VANS",
+    "descr": "Ward Sneaker",
+    "price": "45",
+    "amount": 1,
+    "collection": "kids"
+  },
+  {
+    "id": 36,
+    "img": "https://images.dsw.com/is/image/DSWShoes/524589_100_ss_01?impolicy=colpg&imwidth=400&imdensity=1",
+    "title": "Religious Comfort",
+    "descr": "Max White Sneaker",
+    "price": "50",
+    "amount": 1,
+    "collection": "kids"
+  },
+  {
+    "id": 37,
+    "img": "https://images.dsw.com/is/image/DSWShoes/519253_450_ss_01?impolicy=colpg&imwidth=400&imdensity=1",
+    "title": "ADIDAS",
+    "descr": "adidas x Disney FortaRun Daisy",
+    "price": "56",
+    "amount": 1,
+    "collection": "kids"
+  },
+  {
+    "id": 38,
+    "img": "https://images.dsw.com/is/image/DSWShoes/530300_690_ss_01?impolicy=colpg&imwidth=400&imdensity=1",
+    "title": "Kelly & Katie",
+    "descr": "Stacy High-Top Sneaker",
+    "price": "30",
+    "amount": 1,
+    "collection": "kids"
+  },
+  {
+    "id": 39,
+    "img": "https://images.dsw.com/is/content/DSWShoes/501674_420_ss_01?impolicy=colpg&imwidth=400&imdensity=1",
+    "title": "DISNEY",
+    "descr": "Frozen 2 Light-Up Sneaker",
+    "price": "56",
+    "amount": 1,
+    "collection": "kids"
+  },
+  {
+    "id": 40,
+    "img": "https://images.dsw.com/is/image/DSWShoes/519263_100_ss_01?impolicy=colpg&imwidth=400&imdensity=1",
+    "title": "ADIDAS",
+    "descr": "adidas x Disney Grand Court",
+    "price": "38",
+    "amount": 1,
+    "collection": "kids"
+  }
+]

@@ -1,0 +1,46 @@
+.empty-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.empty-img img {
+  width: 350px;
+  height: 350px;
+}
+.count-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.count-button {
+  background-color: #fff;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.amount {
+  margin: 0;
+  display: inline-block;
+  font-size: 18px;
+  align-self: flex-start;
+}
+
+
+.total {
+  margin-top: 60px;
+  position: fixed;
+  bottom: calc(100vh - 84vh - 17px);
+  width: inherit;
+  height: 60px;
+  background-color: #fff;
+  width: 50%;
+  font-size: 20px;
+}
+.total hr {
+  height: 2px;
+  background-color: rgb(30, 132, 242);
+  border: none;
+}

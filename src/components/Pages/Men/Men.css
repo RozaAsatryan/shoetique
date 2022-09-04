@@ -1,0 +1,13 @@
+.men-shoes-section {
+  margin: 50px auto;
+  max-width: 1300px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 350px);
+  align-items: center;
+  justify-content: center;
+  row-gap: 50px;
+}
+
+.men-section {
+  background-image: url("https://wallpaper.dog/large/10826827.jpg");
+}

@@ -1,0 +1,42 @@
+.burger-menu-wrapper {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  background: #11161a;
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.burger-menu-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.burger-menu-div a {
+  text-decoration: none;
+  color: white;
+  font-size: 40px;
+  text-shadow: 0 0 8px gray;
+}
+
+.burger-menu-div a:hover {
+  text-shadow: 0 0 10px blue, 0 0 20px blue;
+}
+
+.back-btn {
+  border: none;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+.back-btn-icon {
+  font-size: 35px;
+  text-shadow: 0 0 8px gray;
+}
