@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState} from "react";
 import Header from "./components/header/Header";
 import Banner from "./components/banner/Banner";
 import Modal from "./components/Modal/Modal";
@@ -40,28 +40,12 @@ const App = () => {
     setCart([...arr]);
   };
 
-  let hideRef = useRef();
-
-  useEffect(() => {
-    const handler = (e) => {
-      if (!hideRef.current.contains(e.target)) {
-        setShow(false);
-        setShowCart(false);
-        setShowWishlist(false);
-      }
-    };
-    document.addEventListener("mousedown", handler);
-    return () => {
-      document.removeEventListener("mousedown", handler);
-    };
-  });
 
   return (
     <section>
       {show && (
         <Modal
           setShow={setShow}
-          hideRef={hideRef}
           setShowCart={setShowCart}
           setShowWishlist={setShowWishlist}
         >
