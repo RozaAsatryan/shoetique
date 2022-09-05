@@ -9,7 +9,8 @@ import {
 const CartDiv = ({ cart, setCart, handleChange }) => {
   const [price, setPrice] = useState(0);
 
-  const handleRemove = (id) => {
+  const handleRemove = (shoe, id) => {
+    shoe.amount = 1;
     const arr = cart.filter((item) => item.id !== id);
     setCart(arr);
   };
@@ -41,7 +42,11 @@ const CartDiv = ({ cart, setCart, handleChange }) => {
                 <>
                   <tr>
                     <td>
-                      <img className="table-img" src={shoe.img} alt={shoe.title} />
+                      <img
+                        className="table-img"
+                        src={shoe.img}
+                        alt={shoe.title}
+                      />
                     </td>
                     <td>
                       <h3>{shoe.title}</h3>
@@ -51,25 +56,25 @@ const CartDiv = ({ cart, setCart, handleChange }) => {
                     <td>
                       <p>Price: ${shoe.price * shoe.amount}</p>
                       <div className="count-div">
-                      <button
-                        className="count-button"
-                        onClick={() => handleChange(shoe, 1)}
-                      >
-                        <BsPlusCircleDotted />
-                      </button>
-                      <p className="amount">{shoe.amount}</p>
-                      <button
-                        className="count-button"
-                        onClick={() => handleChange(shoe, -1)}
-                      >
-                        <BsDashCircleDotted />
-                      </button>
+                        <button
+                          className="count-button"
+                          onClick={() => handleChange(shoe, 1)}
+                        >
+                          <BsPlusCircleDotted />
+                        </button>
+                        <p className="amount">{shoe.amount}</p>
+                        <button
+                          className="count-button"
+                          onClick={() => handleChange(shoe, -1)}
+                        >
+                          <BsDashCircleDotted />
+                        </button>
                       </div>
                     </td>
                     <td>
                       <button
                         className="remove"
-                        onClick={() => handleRemove(shoe.id)}
+                        onClick={() => handleRemove(shoe, shoe.id)}
                       >
                         <BsTrash className="remove-icon" />
                       </button>
@@ -89,7 +94,6 @@ const CartDiv = ({ cart, setCart, handleChange }) => {
         </>
       ) : (
         <>
-          
           <div className="empty-img">
             <img
               src="https://occasioni.stanhomeitalia.it/images/emptycart.png"
