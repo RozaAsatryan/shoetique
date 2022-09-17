@@ -1,7 +1,7 @@
 .item-img {
-  width: 70%;
-  height: auto;
-  padding-bottom: 30px;
+  width: auto;
+  height: 150px;
+  margin-bottom: 30px;
 }
 
 .item-img:hover {
@@ -39,11 +39,11 @@
 }
 
 .add-to-wish {
+  margin-bottom: 5px;
   display: flex;
   color: red;
   border: none;
   background-color: transparent;
   font-size: 30px;
-  cursor: pointer;
   align-self: center;
 }

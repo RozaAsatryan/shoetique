@@ -1,11 +1,15 @@
-import React from "react";
+import React, { Suspense } from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App";
 import { BrowserRouter } from "react-router-dom";
+import GridLoader from "react-spinners/GridLoader";
+
+const App = React.lazy(() => import("./App"));
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>
+  <Suspense fallback={<GridLoader />}>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </Suspense>
 );

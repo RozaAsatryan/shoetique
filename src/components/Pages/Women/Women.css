@@ -1,14 +1,2 @@
-.women-shoes-section {
-  margin: 50px auto;
-  max-width: 1300px;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, 350px);
-  align-items: center;
-  justify-content: center;
-  row-gap: 50px;
-}
 
-.women-section {
-  background-image: url("https://img.freepik.com/premium-photo/hand-holds-hanging-gray-running-sneakers-by-laces-blue-pastel-background-hand-with-new-sport-shoe-stability-cushion-running-shoes-close-up_179369-787.jpg?w=2000");
-}
 

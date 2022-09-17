@@ -1,8 +1,38 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-body {
-  box-sizing: border-box;
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
   font-family: "Raleway", "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.wrapper-padding {
+  padding: 20px 30px;
+}
+.flexBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .first-screen {
@@ -10,10 +40,6 @@ body {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-}
-
-button {
-  cursor: pointer;
 }
 
 .collection-heading {
@@ -34,8 +60,6 @@ button {
 }
 
 .collection-top-section h2 {
-  max-width: 1300px;
-  margin: 0 auto;
   display: flex;
   align-content: center;
   padding-bottom: 50px;
@@ -43,4 +67,31 @@ button {
   text-shadow: 0 0 30px rgb(202 228 225 / 34%), 0 0 12px rgb(46 48 51 / 52%),
     0 0 21px rgb(30 132 242);
   font-weight: 300;
+}
+.men-section {
+  background-image: url("https://wallpaper.dog/large/10826827.jpg");
+}
+.women-section {
+  background-image: url("https://img.freepik.com/premium-photo/hand-holds-hanging-gray-running-sneakers-by-laces-blue-pastel-background-hand-with-new-sport-shoe-stability-cushion-running-shoes-close-up_179369-787.jpg?w=2000");
+}
+.kids-section {
+  background-image: url(img/baby-shoes-blue-banner.jpg);
+}
+
+.home-items-section {
+  padding: 50px 0;
+}
+.home-items-heading {
+  text-align: left;
+  font-size: 40px;
+  font-weight: 100px;
+  color: #35617d;
+}
+.items-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  row-gap: 45px;
 }

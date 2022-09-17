@@ -20,19 +20,21 @@ const Modal = ({ children, setShow, setShowCart, setShowWishlist }) => {
   });
   return (
     <section className="modal-wrapper">
-      <div className="modal-content" ref={hideRef}>
-        {children}
-        <div>
-          <span
-            className="close-icon"
-            onClick={() => {
-              setShow(false);
-              setShowCart(false);
-              setShowWishlist(false);
-            }}
-          >
-            x
-          </span>
+      <div className="modal-content-parent">
+        <div className="modal-content" ref={hideRef}>
+          {children}
+          <div>
+            <span
+              className="close-icon"
+              onClick={() => {
+                setShow(false);
+                setShowCart(false);
+                setShowWishlist(false);
+              }}
+            >
+              x
+            </span>
+          </div>
         </div>
       </div>
     </section>

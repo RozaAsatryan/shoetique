@@ -1,4 +1,4 @@
-import React, { useState} from "react";
+import React, { useState } from "react";
 import Header from "./components/header/Header";
 import Banner from "./components/banner/Banner";
 import Modal from "./components/Modal/Modal";
@@ -39,7 +39,6 @@ const App = () => {
     if (arr[index].amount === 0) arr[index].amount = 1;
     setCart([...arr]);
   };
-
 
   return (
     <section>
@@ -94,7 +93,9 @@ const App = () => {
                   setShowCart={setShowCart}
                   setShowWishlist={setShowWishlist}
                 />
-                <h2 className="collection-heading">Men's collection</h2>
+                <h2 className="collection-heading wrapper wrapper-padding">
+                  Men's collection
+                </h2>
               </section>
               <Men handleClick={handleClick} handleWishlist={handleWishlist} />
             </>
@@ -110,7 +111,9 @@ const App = () => {
                   setShowCart={setShowCart}
                   setShowWishlist={setShowWishlist}
                 />
-                <h2 className="collection-heading">Women's collection</h2>
+                <h2 className="collection-heading wrapper wrapper-padding">
+                  Women's collection
+                </h2>
               </section>
               <Women
                 handleClick={handleClick}
@@ -129,7 +132,9 @@ const App = () => {
                   setShowCart={setShowCart}
                   setShowWishlist={setShowWishlist}
                 />
-                <h2 className="collection-heading">Kid's collection</h2>
+                <h2 className="collection-heading wrapper wrapper-padding">
+                  Kid's collection
+                </h2>
               </section>
               <Kid handleClick={handleClick} handleWishlist={handleWishlist} />
             </>

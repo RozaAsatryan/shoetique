@@ -15,14 +15,14 @@ const menu = [
 const Header = ({ setShow, setShowCart, setShowWishlist, style }) => {
   const [burgerMenu, setBurgerMenu] = useState(false);
   return (
-    <header style={style}>
+    <header style={style} className="wrapper flexBetween wrapper-padding">
       <div className="heading">
         <Link to="/" className="logo">
           <h1>Shoetique</h1>
         </Link>
       </div>
       <div className="menu">
-        <ul>
+        <ul className="flexBetween">
           {menu.map((elem, i) => (
             <li key={i}>
               <Link to={elem.href}>{elem.title}</Link>

@@ -2,9 +2,9 @@ import "./Banner.css";
 
 const Banner = () => {
   return (
-    <div className="banner">
+    <div className="banner wrapper">
       <h2>
-        MAKE
+        MAKE 
         <br />
         YOUR
         <br />

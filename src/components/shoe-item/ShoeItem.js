@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import StarRating from "../star/StarRating";
 import { BsFillCartPlusFill, BsCheck2Circle } from "react-icons/bs";
 import { FaRegHeart, FaHeart } from "react-icons/fa";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import "./ShoeItem.css";
 
 const ShoeItem = ({ shoe, handleClick, handleWishlist }) => {
@@ -15,8 +16,22 @@ const ShoeItem = ({ shoe, handleClick, handleWishlist }) => {
   };
 
   return (
-    <div>
-      <img className="item-img" src={shoe.img} alt={shoe.title} />
+    <div className="single-item">
+      <button
+        className="add-to-wish"
+        onClick={() => {
+          setHeartBtn(false);
+          handleWishlist(shoe);
+        }}
+      >
+        {heartBtn ? <FaRegHeart /> : <FaHeart />}
+      </button>
+      <LazyLoadImage
+        effect="blur"
+        className="item-img"
+        src={shoe.img}
+        alt={shoe.title}
+      />
       <h3>{shoe.title}</h3>
       <p>{shoe.descr}</p>
       <p>$ {shoe.price}</p>
@@ -39,9 +54,6 @@ const ShoeItem = ({ shoe, handleClick, handleWishlist }) => {
               Added
             </>
           )}
-        </button>
-        <button className="add-to-wish" onClick={() => {setHeartBtn(false); handleWishlist(shoe)}}>
-          {heartBtn ? <FaRegHeart /> : <FaHeart />}
         </button>
       </div>
     </div>

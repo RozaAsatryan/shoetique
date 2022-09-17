@@ -1,16 +1,15 @@
 import React from "react";
 import shoes from "../../../all-shoes.json";
 import ShoeItem from "../../shoe-item/ShoeItem";
-import "./Women.css";
 
 
 const Women = ({ handleClick, handleWishlist }) => {
   const onlyWomen = shoes.filter((shoe) => shoe.collection === "female");
   return (
     <>
-      <section className="women-shoes-section">
-        {onlyWomen.map((shoe) => (
-          <div className="women-shoes">
+      <section className="items-section wrapper wrapper-padding">
+        {onlyWomen.map((shoe, i) => (
+          <div key={i} className="women-shoes">
             <ShoeItem
               shoe={shoe}
               handleClick={handleClick}
